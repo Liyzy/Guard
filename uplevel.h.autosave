@@ -1,0 +1,15 @@
+#ifndef UPLEVEL_H
+#define UPLEVEL_H
+
+#include <QPainter>
+
+class Opration
+{
+public:
+    Opration(const QPixmap & sprite = QPixmap("../GUARD/images/UpLevel.png"));
+    void draw(QPainter *painter) const;
+private:
+    const QPixmap m_sprite;
+};
+
+#endif // UPLEVEL_H

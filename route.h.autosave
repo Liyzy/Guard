@@ -1,0 +1,11 @@
+#ifndef ROUTE_H
+#define ROUTE_H
+#include <QPoint>
+
+class WayPoint
+{
+public:
+    WayPoint(QPoint pos) ;
+    void setNext
+};
+#endif // ROUTE_H
